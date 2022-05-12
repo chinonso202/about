@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;  
+}
+
+
+
+
+
+
+.header{
+    font-size: 45px;
+    line-height: 53px;
+    font-style: bold;
+    vertical-align: top;
+    color: #2D3748;
+    text-align: left;
+}
+.header_intro{
+    font-size: 18px;
+    font-style: bold;
+    line-height: 22px;
+    vertical-align: top;
+    text-align: left;
+    text-justify: inter-word;
+    text-align: justify;
+}
+.image_header img{
+   height:auto;
+   width: 100%;
+   object-fit:fill;
+}
+.intro-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+span{
+font-weight: 400;
+font-size:18px;
+line-height:22px;
+fill:#718096;
+   }
+.content1{
+    text-justify: inter-word;
+    text-align: justify;
+    vertical-align: top;
+    font-size: 16px;
+    color: #424243;
+    margin-bottom: 15px;
+
+}
+.articles{
+    color: #BD0B20;
+    font-style: bold;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.article_content{
+    font: bold;
+    font: 700;
+    font-size: 24.82px;
+    line-height: 30.03px;
+    padding: 10px;
+}
+.article_p{
+    font-size: 17.37px;
+    line-height: 21px;
+    text-justify:inter-word;
+    color: #718096;
+}
+.date_line{
+  color: #718096;  
+  font-size: 14.89px;
+  line-height: 18px;
+ text-justify: inter-word;
+}
+.read_more{
+    color:#2D3748;
+    text-justify: inter-word;
+    font-style: bold;
+    font-size: 14.89px;
+    line-height: 18px;
+}
+.article-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex_container img{
+    width: 368.53px;
+    height: 222.11px;
+}
+.flex_box{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+@media only screen and (max-width: 900px) {
+    .flex_box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .article-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+  }
+  .container-contents{
+      padding: 30px;
+  }
